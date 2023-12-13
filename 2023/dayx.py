@@ -3,4 +3,5 @@ def solution():
 
 
 if __name__ == "__main__":
-    solution()
+    print("Solution 1: ", solution())
+    print("Solution 2: ", solution2())
