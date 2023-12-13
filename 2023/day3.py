@@ -135,6 +135,6 @@ def traverse(grid, r: int, c: int, visited=set()):
 
 
 if __name__ == "__main__":
-    assert (parse_number("467..114..", 1, 1) == 567, "Test 1")
+    assert parse_number("467..114..", 1, 1) == 467, "Test 1"
     print("Solution 1: ", solution())
     print("Solution 2: ", solution2())
